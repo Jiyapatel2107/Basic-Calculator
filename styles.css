@@ -1,0 +1,116 @@
+/* Base style for the page */
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f9f9f9;
+  margin: 0;
+}
+/* Calculator container styling */
+.calculator {
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 380px;
+}
+/* Display area style */
+.display {
+  width: 100%;
+  height: 60px;
+  background: #fff;
+  border: 1px solid #ccc;
+  text-align: right;
+  font-size: 2em;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  overflow-x: auto;
+}
+/* Layout for all calculator buttons */
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* 4 buttons per row */
+  gap: 10px; /* Space between buttons */
+}
+/* General button styling */
+button {
+  padding: 20px;
+  font-size: 1.2em;
+  border: none;
+  border-radius: 10px;
+  background-color: #eef0f5;
+  cursor: pointer;
+}
+/* Button pressed effect */
+button:active {
+  background-color: #d3d8e0;
+}
+/* Operator buttons (+, -, *, /, %) */
+button.operator {
+  background-color: #a0a4aa;
+}
+/* Equal button (=) */
+button.equal {
+  background-color: #4b5563;
+  color: white;
+}
+/* Special function buttons (MC, MR, M+, etc.) */
+button.function{
+   background-color: #b2c2caaf;
+}
+button.main{
+   background-color: #5d6774;
+   color: white;
+}
+
+/* DARK MODE STYLES */
+
+body.dark-mode {
+  background-color: #212121;
+  color: #f5f5f5;
+}
+body.dark-mode .calculator {
+  background-color: #2c2c2c;
+  box-shadow: 0 10px 25px rgba(255, 255, 255, 0.05);
+}
+body.dark-mode .display {
+  background: #424242;
+  border-color: #616161;
+  color: #ffffff;
+}
+body.dark-mode button {
+  background-color: #616161;
+  color: #f5f5f5;
+}
+body.dark-mode button.operator {
+  background-color: #757575;
+  color: #fff;
+}
+body.dark-mode button.function{
+   background-color: #686868;
+  color: #fff;
+}
+body.dark-mode button.equal {
+  background-color: #9e9e9e;
+  color: #212121;
+}
+body.dark-mode button:active {
+  background-color: #888;
+}
+
+/* Add dark mode toggle switch */
+.dark-toggle {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  background: #ccc;
+  border: none;
+  border-radius: 50px;
+  padding: 10px 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
