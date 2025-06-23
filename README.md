@@ -71,7 +71,7 @@ Basic-Calculator/
 ## 💡 Author
 
 **Jiya Patel**  
--**GitHub: [@Jiyapatel2107](https://github.com/Jiyapatel2107/Basic-Calculator.git)**
--**Project: Basic Calculator**
+- **GitHub:** [@Jiyapatel2107](https://github.com/Jiyapatel2107/Basic-Calculator.git)
+- **Project:** Basic Calculator
 
 ---
