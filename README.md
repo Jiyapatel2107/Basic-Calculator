@@ -63,7 +63,6 @@ Basic-Calculator/
 
 ## 📷 Screenshot
 
-![Calculator Screenshot].
 ![img1](https://github.com/user-attachments/assets/e1db4cfd-ab77-4d9d-88b3-a1df607516ca)
 ![img2](https://github.com/user-attachments/assets/ba063de3-80e2-4ed0-b8f3-1f2edb24578a)
 ---
