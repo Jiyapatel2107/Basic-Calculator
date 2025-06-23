@@ -19,3 +19,58 @@ A modern, interactive web-based calculator built using **HTML**, **CSS**, and **
 
 ## 📁 File Structure
 
+```
+Basic-Calculator/
+├── index.html         # Main HTML file
+├── style.css          # Custom CSS styling
+└── script.js          # Main JavaScript logic
+```
+
+## 🚀 How to Run
+
+1. **Download or Clone** the repository:
+   ```bash
+   git clone https://github.com/your-username/Basic-Calculator.git
+   ```
+
+2. **Open** `index.html` in any modern web browser (Chrome, Firefox, Edge, etc.).
+
+3. Use the calculator interface as per your needs!
+
+## 🔧 How to Use
+
+- Click buttons or type using your keyboard.
+- Use `()` buttons for complex expressions.
+- Use cube `x³` button to calculate cube of a number.
+- Memory buttons:
+  - `M+` stores the current display value to memory.
+  - `M-` subtracts the display value from memory.
+  - `MR` displays memory value.
+  - `MC` clears the memory.
+- Use the theme selector (if implemented in UI) to change appearance.
+
+## 🛠️ Technologies Used
+
+- **HTML5**
+- **CSS3**
+- **Vanilla JavaScript (ES6+)**
+
+## 📌 To-Do / Future Improvements
+
+- Add keyboard shortcuts for memory functions
+- Implement scientific mode with sin, cos, log, etc.
+- Add error-handling for invalid expressions
+
+## 📷 Screenshot
+
+![Calculator Screenshot](screenshot.png) *(optional: add a real screenshot of your calculator)*
+
+---
+
+## 💡 Author
+
+**Jiya Patel**  
+GitHub: [@your-username](https://github.com/your-username)  
+Project: Basic Calculator
+
+---
