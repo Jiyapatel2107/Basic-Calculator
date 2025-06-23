@@ -30,7 +30,7 @@ Basic-Calculator/
 
 1. **Download or Clone** the repository:
    ```bash
-   git clone https://github.com/your-username/Basic-Calculator.git
+   git clone (https://github.com/Jiyapatel2107/Basic-Calculator.git)
    ```
 
 2. **Open** `index.html` in any modern web browser (Chrome, Firefox, Edge, etc.).
@@ -63,14 +63,16 @@ Basic-Calculator/
 
 ## 📷 Screenshot
 
-![Calculator Screenshot](screenshot.png) *(optional: add a real screenshot of your calculator)*
+![Calculator Screenshot].
+![screenimage](https://github.com/user-attachments/assets/9ce50a95-64f4-475e-bf47-0e82da732c12)
+
 
 ---
 
 ## 💡 Author
 
 **Jiya Patel**  
-GitHub: [@your-username](https://github.com/your-username)  
+GitHub: [@Jiyapatel2107](https://github.com/Jiyapatel2107/Basic-Calculator.git)
 Project: Basic Calculator
 
 ---
