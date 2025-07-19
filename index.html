@@ -2,69 +2,76 @@
 <html lang="en">
 
 <head>
+  <!-- Basic page setup -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Advanced Calculator</title>
+
+  <!-- Link to external CSS for styling -->
   <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-  <!-- Toggle Button for Dark Mode -->
+  <!-- Dark Mode Toggle Button -->
   <button class="dark-toggle" onclick="toggleDarkMode()">🌙</button>
 
   <!-- Calculator Container -->
   <div class="calculator">
 
-    <!-- Display Screen -->
+    <!-- Display Screen to show input/output -->
     <input type="text" class="display" id="display" value="" />
 
+    <!-- All Calculator Buttons -->
     <div class="buttons">
 
       <!-- Memory Function Buttons -->
-      <button class="function" onclick="memoryClear()">MC</button>
-      <button class="function" onclick="memoryAdd()">M+</button>
-      <button class="function" onclick="memorySubtract()">M-</button>
-      <button class="function" onclick="memoryRecall()">MR</button>
+      <button class="function" onclick="memoryClear()">MC</button>     <!-- Memory Clear -->
+      <button class="function" onclick="memoryAdd()">M+</button>       <!-- Memory Add -->
+      <button class="function" onclick="memorySubtract()">M-</button>  <!-- Memory Subtract -->
+      <button class="function" onclick="memoryRecall()">MR</button>    <!-- Memory Recall -->
 
+      <!-- Clear all input -->
       <button class="main" onclick="clearDisplay()">AC</button>
       
-      <!-- Scientific Functions -->
-      <button class="function" onclick="calculateSqrt()">&#8730;</button>
-      <button class="function" onclick="calculateSquare()">x²</button>
-      <button class="function" onclick="calculateCube()">x³</button>
-      <button class="function" onclick="calculateReciprocal()">1/x</button>
+      <!-- Scientific Function Buttons -->
+      <button class="function" onclick="calculateSqrt()">&#8730;</button>         <!-- Square Root -->
+      <button class="function" onclick="calculateSquare()">x²</button>            <!-- Square -->
+      <button class="function" onclick="calculateCube()">x³</button>              <!-- Cube -->
+      <button class="function" onclick="calculateReciprocal()">1/x</button>       <!-- Reciprocal -->
 
+      <!-- Backspace to remove last character -->
       <button class="main" onclick="backspace()">&#9003;</button>
-     
-      <!-- Number Buttons and Basic Operators -->
+
+      <!-- Number Buttons and Brackets -->
       <button onclick="appendNumber('7')">7</button>
       <button onclick="appendNumber('8')">8</button>
       <button onclick="appendNumber('9')">9</button>
-      <button class="function" onclick="appendBracket('(')">(</button>
-      <button class="function" onclick="appendBracket(')')">)</button>      
+      <button class="function" onclick="appendBracket('(')">(</button>           <!-- Open Bracket -->
+      <button class="function" onclick="appendBracket(')')">)</button>           <!-- Close Bracket -->
 
       <button onclick="appendNumber('4')">4</button>
       <button onclick="appendNumber('5')">5</button>
       <button onclick="appendNumber('6')">6</button>
-      <button class="operator" onclick="appendOperator('/')">&#247;</button>
-      <button class="operator" onclick="appendOperator('*')">&#215;</button>
-      
+      <button class="operator" onclick="appendOperator('/')">&#247;</button>     <!-- Division -->
+      <button class="operator" onclick="appendOperator('*')">&#215;</button>     <!-- Multiplication -->
 
       <button onclick="appendNumber('1')">1</button>
       <button onclick="appendNumber('2')">2</button>
       <button onclick="appendNumber('3')">3</button>
-      <button class="operator" onclick="appendOperator('+')">+</button>
-      <button class="operator" onclick="appendOperator('-')">-</button>
+      <button class="operator" onclick="appendOperator('+')">+</button>          <!-- Addition -->
+      <button class="operator" onclick="appendOperator('-')">-</button>          <!-- Subtraction -->
 
-      <button class="operator" onclick="appendOperator('%')">%</button>
+      <!-- Additional Functional Buttons -->
+      <button class="operator" onclick="appendOperator('%')">%</button>          <!-- Modulus -->
       <button onclick="appendNumber('0')">0</button>
-      <button onclick="appendDot()">.</button>
-      <button class="operator" onclick="toggleSign()">+/-</button>
-      <button class="equal" onclick="calculate()">=</button>
+      <button onclick="appendDot()">.</button>                                   <!-- Decimal Point -->
+      <button class="operator" onclick="toggleSign()">+/-</button>               <!-- Toggle Positive/Negative -->
+      <button class="equal" onclick="calculate()">=</button>                     <!-- Evaluate Expression -->
                   
     </div>
   </div>
+
+  <!-- Link to external JavaScript file -->
   <script src="script.js"></script>
 </body>
 </html>
-
